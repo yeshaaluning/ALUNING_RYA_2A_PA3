@@ -47,7 +47,7 @@ import pandas as pd
 cars = pd.read_csv('cars.csv')
 cars
 
-#displaying first five rows with odd-numbered columns
+#To display first five rows with odd-numbered columns
 odd_columns = cars.iloc[:, 1::2]
 result = odd_columns.head()
 result
@@ -55,10 +55,10 @@ result
 #To display the row containing the model Mazda RX4
 cars[0:1]
 
-# To determine how many cylinders (cyl) the Camaro Z28 has
+#To determine how many cylinders (cyl) the Camaro Z28 has
 cars.loc[cars['Model']=='Camaro Z28', ['Model', 'cyl']]
 
-# To find the number of cylinders (cyl) and gear type (gear) for Mazda RX4 Wag, Ford Pantera L, and Honda Civic
+#To find the number of cylinders (cyl) and gear type (gear) for Mazda RX4 Wag, Ford Pantera L, and Honda Civic
 cars.loc[[1,28,18],['Model', 'cyl', 'gear']]
 
 ```
