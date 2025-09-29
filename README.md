@@ -10,8 +10,6 @@ Using knowledge obtained from the experiment and demonstrations: <br>
 a. Load the corresponding `.csv` file into a DataFrame named `cars` using pandas. <br> 
 b. Display the first five and last five rows of the resulting `cars`. <br> 
 
----
-
 ### Code Process
 
 **Explanation:**
@@ -53,8 +51,6 @@ a. Display the first five rows with odd-numbered columns (columns 1, 3, 5, 7...)
 b. Display the row that contains the ‘Model’ of ‘Mazda RX4’. <br> 
 c. How many cylinders (‘cyl’) does the car model ‘Camaro Z28’ have? <br> 
 d. Determine how many cylinders (‘cyl’) and what gear type (‘gear’) do the car models ‘Mazda RX4 Wag’, ‘Ford Pantera L’ and ‘Honda Civic’ have. <br> 
-
----
 
 ### Code Process
 
@@ -110,7 +106,7 @@ cars.loc[[1,28,18], ['Model', 'cyl', 'gear']]
 
 ## Conclusion
 
-In this program assignment, we learned how to use **pandas** to perform basic data analysis tasks such as loading datasets, subsetting, slicing, and indexing.
+In this program assignment, we learned how to use pandas to perform basic data analysis tasks such as loading datasets, subsetting, slicing, and indexing.
 
 * In **Problem 1**, we practiced loading a CSV file into a DataFrame and previewing its content using `.head()` and `.tail()`.
 * In **Problem 2**, we applied different indexing techniques to extract specific rows and columns, demonstrating how powerful pandas is in filtering and organizing data.
@@ -118,5 +114,4 @@ In this program assignment, we learned how to use **pandas** to perform basic da
 Overall, this exercise provided hands-on experience in data wrangling using Python, which is a fundamental skill for working with datasets in real-world applications.
 
 ---
-
 *Version 2*
